@@ -6,14 +6,13 @@ public class WindowOpen : MonoBehaviour
 {
     public GameObject appWindow;  // Arraste o painel da janela que você quer que o botão abra no Inspector
 
-    // Função para ser chamada ao clicar no botão
     public void OpenAppWindow()
     {
         if (appWindow != null)
         {
             appWindow.SetActive(true);  // Torna a janela visível
 
-            // Coloca a janela no topo (última na hierarquia)
+            // Coloca a janela no topo da visualização (última na hierarquia)
             appWindow.transform.SetAsLastSibling();
         }
     }

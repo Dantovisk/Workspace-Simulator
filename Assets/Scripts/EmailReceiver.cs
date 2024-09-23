@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; // Usar Text para Unity UI
-using TMPro; // Usar TextMeshPro se for necessário
+using UnityEngine.UI; 
+using TMPro; 
 
 public class EmailReceiver : MonoBehaviour
 {
-    public GameObject emailContentPrefab; // Prefab de um botão ou item de lista para os assuntos
+    public GameObject emailContentPrefab; // Prefab do botão que representará os assuntos dos emails
     public Transform contentParent; // O Content dentro do ScrollView onde os botões serão adicionados
     public TextMeshProUGUI emailText; // Referência à área de texto onde o conteúdo do email será mostrado (ou TextMeshProUGUI se usar TMP)
 
@@ -33,9 +33,6 @@ public class EmailReceiver : MonoBehaviour
 
         // Define o texto do botão como o assunto do email
         newEmailButton.GetComponentInChildren<TextMeshProUGUI>().text = subject;
-
-        // Ou, se estiver usando TextMeshPro:
-        // newEmailButton.GetComponentInChildren<TextMeshProUGUI>().text = subject;
 
         // Adiciona o evento de clique para exibir o corpo do email quando o botão for clicado
         Button button = newEmailButton.GetComponent<Button>();

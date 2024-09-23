@@ -19,14 +19,14 @@ public class WindowDragger : MonoBehaviour, IPointerDownHandler, IBeginDragHandl
     {
         originalPosition = parentRectTransform.anchoredPosition; // Salva a posição original da janela completa
 
-        // Traz a janela clicada para o topo
+        // Traz a janela clicada para o topo da visualização
         parentRectTransform.SetAsLastSibling();
     }
 
     // Função chamada quando o arrasto começa
     public void OnBeginDrag(PointerEventData eventData)
     {
-        // Pode ser usada para configurar algo quando o arrasto começa (opcional)
+
     }
 
     // Função chamada enquanto o painel está sendo arrastado
@@ -38,6 +38,6 @@ public class WindowDragger : MonoBehaviour, IPointerDownHandler, IBeginDragHandl
     // Função chamada quando o arrasto termina
     public void OnEndDrag(PointerEventData eventData)
     {
-        // Pode ser usada para ações quando o arrasto termina (opcional)
+
     }
 }
