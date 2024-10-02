@@ -1,5 +1,5 @@
-// Aviso: Esse codigo funciona quando você coloca o script em alguma entidade filho (como uma barra superior)
-// E O script moverá todo o objeto Pai
+// Aviso: Esse codigo funciona quando vocï¿½ coloca o script em alguma entidade filho (como uma barra superior)
+// E O script moverï¿½ todo o objeto Pai
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -10,32 +10,34 @@ public class WindowDragger : MonoBehaviour, IPointerDownHandler, IBeginDragHandl
 
     private void Awake()
     {
-        // Obtém o RectTransform do objeto pai, que é o "EmailWindow"
+        // Obtï¿½m o RectTransform do objeto pai, que ï¿½ o "EmailWindow"
         parentRectTransform = transform.parent.GetComponent<RectTransform>();
     }
 
-    // Função chamada quando o clique começa
+    // Funï¿½ï¿½o chamada quando o clique comeï¿½a
     public void OnPointerDown(PointerEventData eventData)
     {
-        originalPosition = parentRectTransform.anchoredPosition; // Salva a posição original da janela completa
+        originalPosition = parentRectTransform.anchoredPosition; // Salva a posiï¿½ï¿½o original da janela completa
 
-        // Traz a janela clicada para o topo da visualização
+        // Traz a janela clicada para o topo da visualizaï¿½ï¿½o
         parentRectTransform.SetAsLastSibling();
     }
 
-    // Função chamada quando o arrasto começa
+    // Funï¿½ï¿½o chamada quando o arrasto comeï¿½a
     public void OnBeginDrag(PointerEventData eventData)
     {
 
     }
 
-    // Função chamada enquanto o painel está sendo arrastado
+    // Funï¿½ï¿½o chamada enquanto o painel estï¿½ sendo arrastado
     public void OnDrag(PointerEventData eventData)
     {
-        parentRectTransform.anchoredPosition += eventData.delta; // Move a janela completa de acordo com o movimento do mouse/touch
+        float scaleFactor = parentRectTransform.GetComponentInParent<Canvas>().scaleFactor;
+        parentRectTransform.anchoredPosition += eventData.delta / scaleFactor; // Ajusta o movimento de acordo com a escala
     }
 
-    // Função chamada quando o arrasto termina
+
+    // Funï¿½ï¿½o chamada quando o arrasto termina
     public void OnEndDrag(PointerEventData eventData)
     {
 
