@@ -196,7 +196,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 706, y: 212.9257}
+  m_SizeDelta: {x: 950, y: 218.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1497789396795613518
 CanvasRenderer:
@@ -226,8 +226,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "N\xE3o tinha nada. \nConsidere-se scammado.\nAgora olha que legal  essas
-    caixas de sele\xE7\xE3o"
+  m_text: "N\xE3o tinha nada. \nConsidere-se scammado.\nAgora me responda.\nQuais
+    grupos de extens\xE3o s\xE3o poggers?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -361,7 +361,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Analise
+  m_text: PET
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -441,6 +441,7 @@ GameObject:
   - component: {fileID: 2129178642374391881}
   - component: {fileID: 6108087535825247869}
   - component: {fileID: 6100993318989163298}
+  - component: {fileID: 8699973549653547228}
   m_Layer: 5
   m_Name: Report00
   m_TagString: Untagged
@@ -514,6 +515,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &8699973549653547228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403821644451533673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3727d62927e8a7843bbf1ca5ac2c13d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  submitButton: {fileID: 4753735124453243959}
+  toggles:
+  - {fileID: 3403667999185839795}
+  - {fileID: 2112325605138699127}
+  - {fileID: 5283213494690756565}
+  correctAnswers: 000100
 --- !u!1 &1481332709987133071
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,7 +1044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Analise
+  m_text: SEMEAR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1129,7 +1148,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 706, y: 333.68}
+  m_SizeDelta: {x: 950, y: 461.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3580162267076599115
 CanvasRenderer:
@@ -1234,7 +1253,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Analise
+  m_text: GEMA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1338,7 +1357,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 706, y: 275.94}
+  m_SizeDelta: {x: 950, y: 303.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4602032150904721414
 CanvasRenderer:
