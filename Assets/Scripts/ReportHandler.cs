@@ -6,14 +6,16 @@ public class ReportHandler : MonoBehaviour
     public Button submitButton;  // Botão de submissão que o usuário irá clicar
     public Toggle[] toggles;     // Lista de toggles dentro do relatório
     public bool[] correctAnswers; // Array de booleans representando se cada Toggle deve estar ligado ou desligado
-
     private GlobeReportReceiver reportReceiver;  // Referência ao receiver que gerencia os relatórios
     private string reportName;  // Nome do relatório para remover na lista de assuntos
+
+    // Referência ao script de Achievement
+    public Achievement achievementSystem; // <-- Adiciona essa referência
 
     // Função para inicializar o report handler com as referências adequadas
     public void Initialize(GlobeReportReceiver receiver, string name)
     {
-        if(name == "PlaceHolder") return;
+        if (name == "PlaceHolder") return;
         reportReceiver = receiver;
         reportName = name;
 
@@ -36,6 +38,9 @@ public class ReportHandler : MonoBehaviour
         }
 
         Debug.Log($"Score: {score}");
+
+        // Atualiza a pontuação global no AchievementManager
+        AchievementManager.Instance.UpdatePoints(score);
 
         // Remove o relatório atual e o botão da aba de assuntos
         reportReceiver.RemoveReport(reportName, this.gameObject);
