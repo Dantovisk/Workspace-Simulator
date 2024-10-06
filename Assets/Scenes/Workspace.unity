@@ -3680,7 +3680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c104e8924c932284d9818bee4651698b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1337670831
+--- !u!1 &1323946087
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3688,28 +3688,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1337670833}
-  - component: {fileID: 1337670832}
+  - component: {fileID: 1323946089}
+  - component: {fileID: 1323946088}
   m_Layer: 0
-  m_Name: noite2
+  m_Name: city-street-downtown-52115
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!82 &1337670832
+--- !u!82 &1323946088
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1337670831}
+  m_GameObject: {fileID: 1323946087}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -6065496183380578991, guid: 633a238d76d36d74f88244f37965601c, type: 2}
-  m_audioClip: {fileID: 8300000, guid: d8a31e579ef8f8841b032193047851c9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4b380222c0d6bf54b800b7a2f65c9332, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.799
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3793,13 +3793,13 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!4 &1337670833
+--- !u!4 &1323946089
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1337670831}
+  m_GameObject: {fileID: 1323946087}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -6544,4 +6544,4 @@ SceneRoots:
   - {fileID: 2044435917}
   - {fileID: 1794208484}
   - {fileID: 559109310}
-  - {fileID: 1337670833}
+  - {fileID: 1323946089}
