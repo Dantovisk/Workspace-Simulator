@@ -55,7 +55,12 @@ public class ReportHandler : MonoBehaviour
             }
             else if (!toggles[i].isOn && correctAnswers[i])
             {
+                score--;
                 perfect = 0;
+            }
+            else if(!toggles[i].isOn && !correctAnswers[i])
+            {
+
             }
             else
             {
