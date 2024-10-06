@@ -13,8 +13,9 @@ public class ManuelReceiver : MonoBehaviour
     private List<string> manuelNames = new List<string>(); // Lista de nomes de relatórios
 
     private void Start(){
-        AddManuel("ManuelClouds1");
-        AddManuel("ManuelClouds2");
+        AddManuel("Globe Handbook");
+        AddManuel("How to Play");
+        AddManuel("Cloud");
     }
 
     // Função para adicionar novos relatórios pelo nome do prefab na pasta Resources/Manuels
