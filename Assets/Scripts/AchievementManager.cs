@@ -6,6 +6,7 @@ public class AchievementManager : MonoBehaviour
     public static AchievementManager Instance; // Singleton para acessar facilmente de outros scripts
 
     public int totalPoints;    // Variável global de pontos
+    public int totalPerfects;    // Variável global de pontos
     public List<Achievement> achievements = new List<Achievement>(); // Lista de achievements
 
     void Awake()
@@ -29,14 +30,15 @@ public class AchievementManager : MonoBehaviour
     }
 
     // Método para atualizar pontos
-    public void UpdatePoints(int points)
+    public void UpdatePoints(int points, int perfects)
     {
         totalPoints += points;
+        totalPerfects += perfects;
 
         // Verifica todos os achievements registrados
         foreach (var achievement in achievements)
         {
-            achievement.CheckCompletion(totalPoints); // Verifica se algum foi completado
+            achievement.CheckCompletion(totalPoints, totalPerfects); // Verifica se algum foi completado
         }
     }
 }
