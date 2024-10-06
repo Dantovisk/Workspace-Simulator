@@ -7,7 +7,10 @@ public class ImageSwitcher : MonoBehaviour
     public Button leftButton; // Botão para ir para a imagem anterior
     public Button rightButton; // Botão para ir para a próxima imagem
 
-    public Sprite[] imageArray; // Um array de imagens (defina 3 imagens aqui no inspector)
+	public Button leftButton2; // Botão para ir para a imagem anterior
+	public Button rightButton2; // Botão para ir para a próxima imagem
+
+	public Sprite[] imageArray; // Um array de imagens (defina 3 imagens aqui no inspector)
 
     private int currentIndex = 0; // Índice da imagem atualmente exibida
 
@@ -20,8 +23,11 @@ public class ImageSwitcher : MonoBehaviour
         leftButton.onClick.AddListener(ShowPreviousImage);
         rightButton.onClick.AddListener(ShowNextImage);
 
-        // Verifica se o botão da esquerda precisa estar desabilitado inicialmente
-        UpdateButtonState();
+		leftButton2.onClick.AddListener(ShowPreviousImage);
+		rightButton2.onClick.AddListener(ShowNextImage);
+
+		// Verifica se o botão da esquerda precisa estar desabilitado inicialmente
+		UpdateButtonState();
     }
 
     // Função para mostrar a imagem anterior
