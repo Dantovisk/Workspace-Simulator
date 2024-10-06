@@ -10,8 +10,7 @@ public class Menu : MonoBehaviour
 	[SerializeField] private GameObject levelMenu;
 	[SerializeField] private GameObject configMenu;
 
-	[SerializeField] private Animator transition;
-	[SerializeField] private float transitionTime = 0.5f;
+	[SerializeField] private Crossfade crossfade;
 
 	public void Jogar()
 	{
@@ -34,18 +33,11 @@ public class Menu : MonoBehaviour
 
 	public void Level1()
 	{
-		StartCoroutine(LoadLevel(1));
+		StartCoroutine(crossfade.LoadLevel(1));
 	}
 
 	public void Sair()
 	{
 		Application.Quit();
-	}
-
-	IEnumerator LoadLevel(int level)
-	{
-		transition.SetTrigger("Start");
-		yield return new WaitForSeconds(transitionTime);
-		SceneManager.LoadScene(level);
 	}
 }
