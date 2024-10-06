@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39491ef9965ffe54baa920eeee832337
+guid: 0ce8042655b20cc4a89d03d195555b17
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 10_0
+      name: Slider_0
       rect:
         serializedVersion: 2
-        x: 1327
-        y: 497
-        width: 554
-        height: 155
+        x: 84
+        y: 623
+        width: 579
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d14b2ae0dc95c8a4ea576e873916fd50
-      internalID: -727179759
+      spriteID: 8e53f8c8b4e17f34a94e30394247b016
+      internalID: 627280445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider_1
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 390
+        width: 308
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca9f459943fae34f80731f5148ad891
+      internalID: 50622240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 549
+        width: 576
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f188009f5095714fa37d6bf240f449d
+      internalID: 959036260
       vertices: []
       indices: 
       edges: []
@@ -128,7 +170,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      10_0: -727179759
+      Slider_0: 627280445
+      Slider_1: 50622240
+      Slider_2: 959036260
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

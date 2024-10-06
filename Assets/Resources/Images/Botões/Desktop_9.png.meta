@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f64c82bde85a0244db87a77af45db455
+guid: c871de182dc36b7469d3673a83464bc5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 12 1_0
+      name: Desktop_9_0
       rect:
         serializedVersion: 2
-        x: 697
-        y: 286
-        width: 554
-        height: 175
+        x: 84
+        y: 623
+        width: 579
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 181f187046d31a5408bcc27c39e76289
-      internalID: 1051590210
+      spriteID: b80ea9417f4b05a4bbeb16e2b7049eef
+      internalID: 239931324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desktop_9_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 493
+        width: 580
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc91b0037483d8d40879457c4820c7d4
+      internalID: -1558687284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desktop_9_2
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 487
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a314ca82d73b347a8d014a06e2622e
+      internalID: 1163805018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desktop_9_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 403
+        width: 580
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc5a67326ebed440ba74f19e63a6abe
+      internalID: -333280627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desktop_9_4
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 288
+        width: 579
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f82ba6372228e34986a188510b81786
+      internalID: -296963711
       vertices: []
       indices: 
       edges: []
@@ -128,7 +212,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      12 1_0: 1051590210
+      Desktop_9_0: 239931324
+      Desktop_9_1: -1558687284
+      Desktop_9_2: 1163805018
+      Desktop_9_3: -333280627
+      Desktop_9_4: -296963711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
