@@ -891,6 +891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BaseContent
       objectReference: {fileID: 0}
+    - target: {fileID: 1891950448978223469, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b9e89ff08f4570e419787bfb19073ad3, type: 3}
     - target: {fileID: 2129178642374391881, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2082,7 +2086,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7310528491491625881, guid: 07851b603a9a8a647b83f2b2aabb86c6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7524572358458684374, guid: 07851b603a9a8a647b83f2b2aabb86c6, type: 3}
       propertyPath: m_SizeDelta.x
@@ -2102,11 +2106,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7997195116806909022, guid: 07851b603a9a8a647b83f2b2aabb86c6, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7997195116806909022, guid: 07851b603a9a8a647b83f2b2aabb86c6, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.6256706
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7997195116806909022, guid: 07851b603a9a8a647b83f2b2aabb86c6, type: 3}
       propertyPath: m_AnchorMin.y
@@ -2821,7 +2825,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7252733295006460728, guid: 07851b603a9a8a647b83f2b2aabb86c6, type: 3}
       propertyPath: m_text
-      value: Globe Manuel
+      value: Handbook
       objectReference: {fileID: 0}
     - target: {fileID: 7252733295006460728, guid: 07851b603a9a8a647b83f2b2aabb86c6, type: 3}
       propertyPath: m_margin.z
@@ -3588,7 +3592,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Globe Manuel
+  m_text: Handbook
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4137,7 +4141,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GEMAil
+  m_text: EMAIL
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5899,6 +5903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalPoints: 0
+  totalPerfects: 0
   achievements:
   - {fileID: 1070134524}
   - {fileID: 520839533}
@@ -6046,6 +6051,14 @@ PrefabInstance:
     - target: {fileID: 5591581436895561193, guid: 5627ac35ade80d64cbaa7cdba58803f5, type: 3}
       propertyPath: m_Name
       value: Content
+      objectReference: {fileID: 0}
+    - target: {fileID: 7961402349315836237, guid: 5627ac35ade80d64cbaa7cdba58803f5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.001953125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7961402349315836237, guid: 5627ac35ade80d64cbaa7cdba58803f5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0025024414
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6407,6 +6420,10 @@ PrefabInstance:
     - target: {fileID: 7201188260291288683, guid: 07851b603a9a8a647b83f2b2aabb86c6, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7252733295006460728, guid: 07851b603a9a8a647b83f2b2aabb86c6, type: 3}
+      propertyPath: m_text
+      value: EMAIL
       objectReference: {fileID: 0}
     - target: {fileID: 7270742985913429172, guid: 07851b603a9a8a647b83f2b2aabb86c6, type: 3}
       propertyPath: m_AnchorMax.y

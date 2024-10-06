@@ -14,7 +14,7 @@ public class ManuelReceiver : MonoBehaviour
 
     private void Start(){
         AddManuel("Globe Handbook");
-        AddManuel("How to Play");
+        AddManuel("To Do List");
         AddManuel("Cloud");
     }
 
