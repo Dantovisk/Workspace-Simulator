@@ -2634,7 +2634,8 @@ MonoBehaviour:
   - {fileID: 3403667999185839795}
   - {fileID: 0}
   - {fileID: 0}
-  correctAnswers: 000100
+  correctAnswers: 010001
+  achievementSystem: {fileID: 0}
 --- !u!1 &1463534933236688444
 GameObject:
   m_ObjectHideFlags: 0
