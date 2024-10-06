@@ -53,9 +53,9 @@ public class ReportHandler : MonoBehaviour
             {
                 score+=5;  // Aumenta a pontuação por cada acerto
             }
-            else if (!toggles[i].isOn)
+            else if (!toggles[i].isOn && correctAnswers[i])
             {
-
+                perfect = 0;
             }
             else
             {
