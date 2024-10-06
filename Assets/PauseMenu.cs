@@ -33,6 +33,8 @@ public class PauseMenu: MonoBehaviour
 	public void PausarJogo()
 	{
 		paused.SetActive(true);
+		pauseMenu.SetActive(true);
+		configMenu.SetActive(false);
 		Time.timeScale = 0f;
 		GameIsPaused = true;
 	}
@@ -59,6 +61,8 @@ public class PauseMenu: MonoBehaviour
 
 	public void Sair()
 	{
+		Time.timeScale = 1f;
+		GameIsPaused = false;
 		StartCoroutine(crossfade.LoadLevel(0));
 	}
 }
