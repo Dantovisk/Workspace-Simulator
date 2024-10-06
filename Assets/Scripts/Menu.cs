@@ -12,6 +12,13 @@ public class Menu : MonoBehaviour
 
 	[SerializeField] private Crossfade crossfade;
 
+	public void Start()
+	{
+		mainMenu.SetActive(true);
+		levelMenu.SetActive(false);
+		configMenu.SetActive(false);
+	}
+
 	public void Jogar()
 	{
 		mainMenu.SetActive(false);

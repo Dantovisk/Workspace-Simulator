@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -43,13 +44,23 @@ public class ReportHandler : MonoBehaviour
     private void CalculateScore()
     {
         int score = 0;
+        int perfect = 1;
 
         // Verifica se cada Toggle está no estado correto
         for (int i = 0; i < toggles.Length; i++)
         {
-            if (toggles[i].isOn == correctAnswers[i])
+            if (toggles[i].isOn && toggles[i].isOn == correctAnswers[i])
             {
-                score++;  // Aumenta a pontuação por cada acerto
+                score+=5;  // Aumenta a pontuação por cada acerto
+            }
+            else if (!toggles[i].isOn && correctAnswers[i])
+            {
+                perfect = 0;
+            }
+            else
+            {
+                score--;
+                perfect = 0;
             }
         }
 
@@ -62,7 +73,7 @@ public class ReportHandler : MonoBehaviour
         }
 
         // Atualiza a pontuação global no AchievementManager
-        AchievementManager.Instance.UpdatePoints(score);
+        AchievementManager.Instance.UpdatePoints(score, perfect);
 
         // Remove o relatório atual e o botão da aba de assuntos
         reportReceiver.RemoveReport(reportName, this.gameObject);
