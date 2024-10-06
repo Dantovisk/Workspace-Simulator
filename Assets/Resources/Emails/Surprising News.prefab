@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6108087535825247869}
   - component: {fileID: 6100993318989163298}
   m_Layer: 5
-  m_Name: BaseContent
+  m_Name: Surprising News
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -324,7 +324,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 773.17, y: 566.8972}
+  m_SizeDelta: {x: 773.17, y: 63.334}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1544455704864443117
 CanvasRenderer:
@@ -354,12 +354,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Good afternoon. \nContinuing from our last conversation, starting today,
-    we have updated your tasks in the system, and I have added the procedures manual
-    to your networked notepad. Considering the recent climate changes, particularly
-    with the wildfires, we will begin with cloud analysis. Please don't forget to
-    check your notepad to learn how to catalog. \nWe appreciate your help, and wish
-    you good work."
+  m_text: Look at this amazing news!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
