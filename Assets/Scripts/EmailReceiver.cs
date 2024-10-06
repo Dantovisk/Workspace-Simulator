@@ -13,6 +13,7 @@ public class EmailReceiver : MonoBehaviour
 
     private void Start()
     {
+        AddEmail("Welcome!");
         AddEmail("Surprising News");
         
     }

@@ -1929,9 +1929,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 947820736}
-  m_Father: {fileID: 842015890}
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3104,9 +3103,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1948603168}
-  m_Father: {fileID: 842015890}
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3521,7 +3519,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 953323483}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3659,9 +3657,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1324251656}
   - {fileID: 2039995057}
-  - {fileID: 482433873}
   - {fileID: 2115719948}
   m_Father: {fileID: 2101499262}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3710,9 +3706,9 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 424001894}
+  m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 1571834119}
-  m_HandleRect: {fileID: 424001893}
+  m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0.0001
   m_MaxValue: 2
@@ -4202,7 +4198,7 @@ RectTransform:
   m_LocalScale: {x: 2.7204225, y: 2.7204225, z: 2.7204225}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 842015890}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4428,9 +4424,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paused: {fileID: 2027367855}
-  pauseMenu: {fileID: 842015889}
+  pauseMenu: {fileID: 0}
   configMenu: {fileID: 2101499261}
-  crossfade: {fileID: 718952176}
+  crossfade: {fileID: 0}
 --- !u!114 &1850811655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5372,7 +5368,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 842015890}
   - {fileID: 2101499262}
   m_Father: {fileID: 1850811653}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5568,9 +5563,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1065339392}
-  - {fileID: 684046469}
+  m_Children: []
   m_Father: {fileID: 1482928978}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -6149,5 +6142,7 @@ SceneRoots:
   - {fileID: 33731454}
   - {fileID: 2044435917}
   - {fileID: 1794208484}
-  - {fileID: 685802553}
-  - {fileID: 930366813}
+  - {fileID: 508902316}
+  - {fileID: 1125824084}
+  - {fileID: 1465176561}
+  - {fileID: 1802087455}
