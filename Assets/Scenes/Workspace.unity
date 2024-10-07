@@ -978,51 +978,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3407306228821213612, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3407306228821213612, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3407306228821213612, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 386.585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3407306228821213612, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -31.667
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5793747344016077641, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5793747344016077641, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5793747344016077641, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 386.585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5793747344016077641, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -352.7826
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6364551265959813539, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6364551265959813539, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6364551265959813539, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 386.585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6364551265959813539, guid: 417d12edd3e03e74db0ff1deb47b3a0a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1046.1812
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1090,15 +1090,15 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 20936b65a69a445429697942a2f025f9, type: 2}
+  m_sharedMaterial: {fileID: 2893250936778658290, guid: 20936b65a69a445429697942a2f025f9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3249,15 +3249,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Globe Observer App
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 20936b65a69a445429697942a2f025f9, type: 2}
+  m_sharedMaterial: {fileID: 2893250936778658290, guid: 20936b65a69a445429697942a2f025f9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3606,15 +3606,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Handbook
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 20936b65a69a445429697942a2f025f9, type: 2}
+  m_sharedMaterial: {fileID: 2893250936778658290, guid: 20936b65a69a445429697942a2f025f9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3890,8 +3890,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 20936b65a69a445429697942a2f025f9, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 2f52bca532837154b9dbc0bb895b1eaa, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4177,15 +4177,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: EMAIL
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 20936b65a69a445429697942a2f025f9, type: 2}
+  m_sharedMaterial: {fileID: 2893250936778658290, guid: 20936b65a69a445429697942a2f025f9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
