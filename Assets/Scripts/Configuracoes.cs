@@ -9,13 +9,13 @@ public class Configuracoes : MonoBehaviour
 
 	private void Start()
 	{
-		if(PlayerPrefs.HasKey("Volum" +
-			"e"))
+		if(PlayerPrefs.HasKey("Volume"))
 		{
 			LoadVolume();
 		}
 		else
 		{
+			volumeSlider.value = 0.75f;
 			SetVolume();
 		}
 	}
