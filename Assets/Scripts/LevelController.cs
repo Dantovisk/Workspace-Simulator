@@ -24,12 +24,12 @@ public class LevelController : MonoBehaviour
     // Inicia um novo dia, adicionando novos relatórios
     private void StartNewDay()
     {
-        StartCoroutine(crossfade.LoadLevel(3));
         if (currentDay < dailyReports.Count)
         {
             // Adiciona os relatórios do dia atual
             AddReportsForDay(currentDay);
             currentDay++;
+            //StartCoroutine(crossfade.LoadLevel(3));
         }
         else
         {
