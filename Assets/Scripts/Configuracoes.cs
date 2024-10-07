@@ -9,7 +9,8 @@ public class Configuracoes : MonoBehaviour
 
 	private void Start()
 	{
-		if(PlayerPrefs.HasKey("Volume"))
+		if(PlayerPrefs.HasKey("Volum" +
+			"e"))
 		{
 			LoadVolume();
 		}
