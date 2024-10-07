@@ -51,7 +51,7 @@ public class ReportHandler : MonoBehaviour
         {
             if (toggles[i].isOn && toggles[i].isOn == correctAnswers[i])
             {
-                score+=5;  // Aumenta a pontuação por cada acerto
+                score+=10;  // Aumenta a pontuação por cada acerto
             }
             else if (!toggles[i].isOn && correctAnswers[i])
             {
@@ -60,7 +60,7 @@ public class ReportHandler : MonoBehaviour
             }
             else if(!toggles[i].isOn && !correctAnswers[i])
             {
-
+                score++;
             }
             else
             {
