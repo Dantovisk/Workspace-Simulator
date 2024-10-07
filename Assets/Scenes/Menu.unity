@@ -668,8 +668,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The path is winding, and many uncharted terrains lie ahead, but the top
-    of the mountain holds a secret
+  m_text: The path may get bugged by obstacles, but just like a mosquito, let your
+    drive to seek knowledge keep you buzzing forward
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 20936b65a69a445429697942a2f025f9, type: 2}
   m_sharedMaterial: {fileID: 2893250936778658290, guid: 20936b65a69a445429697942a2f025f9, type: 2}
@@ -1447,8 +1447,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The path may get bugged by obstacles, but just like a mosquito, let your
-    drive to seek knowledge keep you buzzing forward
+  m_text: The path is winding, and many uncharted terrains lie ahead, but the top
+    of the mountain holds a secret
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 20936b65a69a445429697942a2f025f9, type: 2}
   m_sharedMaterial: {fileID: 2893250936778658290, guid: 20936b65a69a445429697942a2f025f9, type: 2}
