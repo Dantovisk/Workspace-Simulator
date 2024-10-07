@@ -7,6 +7,7 @@ public class LevelController : MonoBehaviour
     public List<string[]> dailyReports;         // Lista contendo os relatórios para cada dia
     private int currentDay = 0;                 // Dia atual do jogo
     private int remainingReports;               // Quantidade de relatórios restantes no dia atual
+    public Crossfade crossfade;
 
     private void Start()
     {
@@ -23,6 +24,7 @@ public class LevelController : MonoBehaviour
     // Inicia um novo dia, adicionando novos relatórios
     private void StartNewDay()
     {
+        StartCoroutine(crossfade.LoadLevel(3));
         if (currentDay < dailyReports.Count)
         {
             // Adiciona os relatórios do dia atual
