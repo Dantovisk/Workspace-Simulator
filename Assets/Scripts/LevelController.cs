@@ -13,9 +13,7 @@ public class LevelController : MonoBehaviour
     {
         dailyReports = new List<string[]>()
         {
-            new string[] { "Report00", "Report01", "Report02", "Report03" },   // Relatórios do dia 1
-            new string[] { "Report04", "Report05", "Report06", "Report07", "Report08" },   // Relatórios do dia 2
-            
+            new string[] { "Report00", "Report01", "Report02", "Report03", "Report04", "Report05", "Report06", "Report07", "Report08" }
         };
 
         StartNewDay();  // Começa o primeiro dia
