@@ -19,8 +19,8 @@ public class ReportHandler : MonoBehaviour
     // Referência ao script de Achievement
     public Achievement achievementSystem; // <-- Adiciona essa referência
 
-    // Função para inicializar o report handler com as referências adequadas
-    public void Initialize(GlobeReportReceiver receiver, string name)
+	// Função para inicializar o report handler com as referências adequadas
+	public void Initialize(GlobeReportReceiver receiver, string name)
     {
         if (name == "PlaceHolder") return;
         reportReceiver = receiver;
@@ -43,7 +43,7 @@ public class ReportHandler : MonoBehaviour
     // Função chamada ao clicar no botão de submit
     private void CalculateScore()
     {
-        int score = 0;
+		int score = 0;
         int perfect = 1;
 
         // Verifica se cada Toggle está no estado correto
@@ -82,5 +82,5 @@ public class ReportHandler : MonoBehaviour
 
         // Remove o relatório atual e o botão da aba de assuntos
         reportReceiver.RemoveReport(reportName, this.gameObject);
-    }
+	}
 }
