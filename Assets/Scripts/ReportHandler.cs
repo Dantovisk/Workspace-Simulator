@@ -19,8 +19,9 @@ public class ReportHandler : MonoBehaviour
     // Referência ao script de Achievement
     public Achievement achievementSystem; // <-- Adiciona essa referência
 
-	// Função para inicializar o report handler com as referências adequadas
-	public void Initialize(GlobeReportReceiver receiver, string name)
+
+    // Função para inicializar o report handler com as referências adequadas
+    public void Initialize(GlobeReportReceiver receiver, string name)
     {
         if (name == "PlaceHolder") return;
         reportReceiver = receiver;
@@ -51,7 +52,7 @@ public class ReportHandler : MonoBehaviour
         {
             if (toggles[i].isOn && toggles[i].isOn == correctAnswers[i])
             {
-                score+=5;  // Aumenta a pontuação por cada acerto
+                score+=10;  // Aumenta a pontuação por cada acerto
             }
             else if (!toggles[i].isOn && correctAnswers[i])
             {
@@ -60,7 +61,7 @@ public class ReportHandler : MonoBehaviour
             }
             else if(!toggles[i].isOn && !correctAnswers[i])
             {
-
+                score++;
             }
             else
             {
@@ -71,10 +72,16 @@ public class ReportHandler : MonoBehaviour
 
         Debug.Log($"Score: {score}");
 
-        // Exibe a pontuação no campo TMP da UI principal
         if (scoreText != null)
         {
-            scoreText.text = $"{score}"; // <-- Atualiza o texto da pontuação
+            // Pega a pontuação armazenada nos PlayerPrefs
+            int currentPoints = PlayerPrefs.GetInt("PlayerPoints", 0); // 0 é o valor padrão caso não haja um valor salvo
+            currentPoints += score; // Soma a pontuação atual com o score
+            PlayerPrefs.SetInt("PlayerPoints", currentPoints); // Salva a nova pontuação
+            PlayerPrefs.Save(); // Garante que o valor seja persistido
+
+            // Atualiza o texto da pontuação
+            scoreText.text = $"{currentPoints}";
         }
 
         // Atualiza a pontuação global no AchievementManager
