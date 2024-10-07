@@ -5940,8 +5940,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc8b844aea69298479796329e5473ce4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalPoints: 50
-  totalPerfects: 50
+  totalPoints: 0
+  totalPerfects: 0
   achievements:
   - {fileID: 1070134524}
   - {fileID: 520839533}
