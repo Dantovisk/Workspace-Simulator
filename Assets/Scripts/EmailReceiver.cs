@@ -16,7 +16,8 @@ public class EmailReceiver : MonoBehaviour
         AddEmail("Welcome!");
         AddEmail("Surprising News");
         AddEmail("Bush Fires");
-        
+        AddEmail("Other news");
+
     }
 
     // Função para adicionar novos emails pelo nome do prefab na pasta Resources/Emails
